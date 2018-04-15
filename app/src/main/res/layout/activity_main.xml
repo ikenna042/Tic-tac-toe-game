@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingLeft="70dp"
+    android:paddingRight="70dp"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/playAlone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:background="@color/button"
+        android:onClick="playAlone_click"
+        android:text="@string/playAlone"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/playWithSomeone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playAlone"
+        android:layout_below="@+id/playAlone"
+        android:layout_marginTop="42dp"
+        android:background="@color/button"
+        android:text="@string/playWithSomeone"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playWithSomeone"
+        android:layout_below="@+id/playWithSomeone"
+        android:layout_marginTop="42dp"
+        android:background="@color/button"
+        android:onClick="exit_click"
+        android:text="@string/exit"
+        android:textColor="#FFFFFF"/>
+
+</RelativeLayout>

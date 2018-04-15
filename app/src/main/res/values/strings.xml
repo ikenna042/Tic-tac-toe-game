@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="action_settings">Settings</string>
+    <string name="playAlone">Play Alone</string>
+    <string name="playWithSomeone">Play With Someone</string>
+    <string name="exit">Exit</string>
+    <string name="alone">playAlone_click</string>
+
+    <string name="cross">X</string>
+    <string name="naught">O</string>
+    <string name="close">Close</string>
+    <string name="play">Play</string>
+</resources>
